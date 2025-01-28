@@ -44,3 +44,11 @@ font-size: 18px;
   width: 60PX;
   height: 60PX;
 }
+.search button img{
+width: 16PX;
+}
+
+.weather-icon{
+  width: 170PX;
+  margin-top: 30PX;
+}
