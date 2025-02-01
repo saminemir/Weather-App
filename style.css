@@ -83,3 +83,14 @@ text-align: left;
   margin-top: -6px;
   margin-left: -4px;
 }
+.weather{
+  display: none;
+}
+.error{
+  text-align: left;
+ margin-left: 15PX;
+  margin: 10px 10px;
+  color: hsl(0, 10%, 10%);
+  display: none;
+  font-size: 14PX;
+}
