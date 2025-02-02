@@ -87,10 +87,9 @@ text-align: left;
   display: none;
 }
 .error{
-  text-align: left;
- margin-left: 15PX;
+  text-align: left; 
   margin: 10px 10px;
   color: hsl(0, 10%, 10%);
-  display: none;
   font-size: 14PX;
+  display: none;
 }
