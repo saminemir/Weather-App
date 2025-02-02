@@ -27,7 +27,6 @@ async function checkweather(city){
   }
 
 }
-console.log("Weather condition:", data.weather[0].main);
 
 searchBtn.addEventListener("click", ()=>{
   checkweather(searchBox.value);
