@@ -22,7 +22,7 @@ async function checkweather(city){
     document.querySelector(".wind").innerHTML = Math.round(data.wind.speed) + " km/h";
   
     weatherIcon.src = `./docs/assets/images/${data.weather[0].main}.png`;
-    console.log(`./images/${data.weather[0].main}.png`,weatherIcon,weatherIcon.src);
+    console.log(`./images/${data.weather[0].main.toLowerCase()}.png`,weatherIcon,weatherIcon.src);
 
     document.querySelector(".error").style.display= "none";
     document.querySelector(".weather").style.display="block";
